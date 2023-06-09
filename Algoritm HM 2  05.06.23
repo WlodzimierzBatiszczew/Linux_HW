@@ -23,6 +23,8 @@ FOR i = n/2; i <= n; i + 1
  END
 O(n log n)
 
+————————————————————
+
 START
 READ number n
 Number a = 0
