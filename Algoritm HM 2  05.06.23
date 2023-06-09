@@ -1,0 +1,50 @@
+START
+
+READ number n
+
+If n == 1 Then return
+
+FOR i = 1; i <= n; i + 1
+          FOR j = 1; j <= n; j + 1
+                Print «*»
+                BREAK
+END
+
+
+O(1)
+———————————————————-
+
+START
+READ number n
+Numbers I = 0, j = 0, a = 0
+FOR i = n/2; i <= n; i + 1
+          FOR j = n/2; j <= n; j * 2
+                A = a + n/2
+ END
+O(n log n)
+
+START
+READ number n
+Number a = 0
+FOR i = 0; i < n; i + 1
+          FOR j = n; j > i; j - 1
+                a = a + i +j
+ END
+
+O(n^2)
+
+————————————————————-
+
+
+
+
+READ number n
+numbers a = 0, I = n
+WHILE I > 0
+           a = a + 1
+           i = i/2
+ END
+
+ O( log n)
+
+———————————————————
